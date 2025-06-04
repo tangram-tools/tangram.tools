@@ -1,0 +1,92 @@
+Base site: Tangram.tools
+
+I am currently using Framer for my website tangram.tools
+
+I would like to move away from this paid solution and would like to build and host my own site. 
+
+I want to take all the content that has been created on the framer site (found at tangram.tools) and rebuild it in this repository. 
+
+
+Great — you're looking to migrate your website from Framer to a self-hosted solution while preserving the existing content and structure. Here's a high-level plan to help you get started:
+
+---
+
+## ✅ Step 1: Evaluate & Plan
+
+### 1.1. Audit the Current Site
+
+Visit [tangram.tools](https://tangram.tools) and take note of:
+
+* Pages (home, about, pricing, etc.)
+* Components (hero sections, feature lists, testimonials, etc.)
+* Design (fonts, colors, layout, animations)
+* Images and assets (SVGs, PNGs, videos, etc.)
+* Metadata (SEO tags, Open Graph, etc.)
+
+Let me know if you'd like help auditing the current live site — I can analyze the content for you if needed.
+
+### 1.2. Choose Your Tech Stack
+
+Common self-hosted, developer-friendly stacks include:
+
+* **Static site generators** like **Next.js**, **Astro**, **Eleventy**
+* **Hosting** via **Vercel**, **Netlify**, or **GitHub Pages**
+* **CMS (optional)**: Sanity, Contentlayer, or none (just Markdown/MDX)
+
+I recommend **Next.js with Tailwind CSS** for flexibility and performance.
+
+---
+
+## ✅ Step 2: Set Up the Repo
+
+### Folder Structure Example:
+
+```
+tangram.tools/
+├── public/               # Images, favicon, etc.
+├── pages/                # Routing (Next.js)
+│   ├── index.tsx         # Homepage
+│   └── ...
+├── components/           # Reusable UI elements
+├── styles/               # Tailwind config and global styles
+├── data/                 # Optional: JSON or Markdown/MDX content
+├── next.config.js        # Next.js configuration
+└── tailwind.config.js    # Tailwind configuration
+```
+
+---
+
+## ✅ Step 3: Extract & Rebuild Content
+
+This part can be semi-automated:
+
+1. **Export/Copy content** from Framer manually or via the browser DOM.
+2. **Download images** from the site using the Network tab or tools like `wget`.
+3. **Rebuild pages** in code using React components and Tailwind.
+4. **Replicate animations** using Framer Motion or CSS if needed.
+
+Would you like help with:
+
+* A full clone of the tangram.tools content?
+* Converting specific sections to React components?
+* A GitHub repo scaffold?
+
+---
+
+## ✅ Step 4: Deploy
+
+When done:
+
+* Push to GitHub.
+* Deploy to Vercel or Netlify (free tier is usually enough).
+* Set up domain (point `tangram.tools` to the new hosting).
+
+---
+
+Would you like me to:
+
+* Start scaffolding a basic version of your site (in Next.js + Tailwind)?
+* Crawl the current site and extract the copy/images?
+* Recreate specific pages/components?
+
+Let me know how hands-on you want this help to be.
