@@ -33,12 +33,16 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v2
         with:
-          path: my-app/out # change this if your actual output path is different
+          path: my-app/out
 
   deploy:
     needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/deploy-pages@v1
+        id: deployment
         with:
           preview: true
