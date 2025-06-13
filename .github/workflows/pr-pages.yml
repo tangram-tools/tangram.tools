@@ -28,7 +28,7 @@ jobs:
       - name: Export Next.js
         run: npm run export
         working-directory: my-app
-      - uses: actions/upload-pages-artifact@v1
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: my-app/out
 
