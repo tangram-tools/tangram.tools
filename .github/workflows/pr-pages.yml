@@ -25,10 +25,7 @@ jobs:
       - name: Build Next.js
         run: npm run build
         working-directory: my-app
-      - name: Export Next.js
-        run: npm run export
-        working-directory: my-app
-      - uses: actions/upload-pages-artifact@v1
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: my-app/out
 
@@ -36,11 +33,11 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     environment:
-      name: github-pages
+      name: preview
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
         with:
-          preview: true
+          preview: true 
 
