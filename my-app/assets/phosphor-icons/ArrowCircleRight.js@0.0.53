@@ -1,0 +1,8 @@
+/*
+ * ArrowCircleRight (phosphor-icons/ArrowCircleRight@0.0.53)
+ *
+ * Learn More: https://www.framer.com/asset-urls
+ */
+
+export * from "/assets/site-cdn/modules/47pkuR8sfJgaEGp63jro/61KrHdxbSYQBGL0bHaJo/ArrowCircleRight.js"
+export { default } from "/assets/site-cdn/modules/47pkuR8sfJgaEGp63jro/61KrHdxbSYQBGL0bHaJo/ArrowCircleRight.js"

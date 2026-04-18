@@ -1,0 +1,8 @@
+/*
+ * Circle (phosphor-icons/Circle@0.0.53)
+ *
+ * Learn More: https://www.framer.com/asset-urls
+ */
+
+export * from "/assets/site-cdn/modules/zUWIqmCer8UhM3mM2dnb/hDRs9kw03RfstzIxgX2I/Circle.js"
+export { default } from "/assets/site-cdn/modules/zUWIqmCer8UhM3mM2dnb/hDRs9kw03RfstzIxgX2I/Circle.js"

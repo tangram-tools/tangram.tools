@@ -1,0 +1,8 @@
+/*
+ * Quotes (phosphor-icons/Quotes@0.0.53)
+ *
+ * Learn More: https://www.framer.com/asset-urls
+ */
+
+export * from "/assets/site-cdn/modules/xmzLHghKQ5OFEqGYR4lI/rICKq6tKiPSWuulYmsEy/Quotes.js"
+export { default } from "/assets/site-cdn/modules/xmzLHghKQ5OFEqGYR4lI/rICKq6tKiPSWuulYmsEy/Quotes.js"
